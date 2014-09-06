@@ -1,0 +1,26 @@
+1.0 Initial version
+
+1.1
+* Performance data
+* Units
+* Boundary check on STRCPY
+
+1.2
+ * Remove backslash from valid perfdata
+ * do not print non-existent Units (resolves #545)
+ * add warning / critical values to perfdata (resolves #501)
+
+1.3
+* custom unicode conversion code (fixes #638)
+
+1.4
+* Rewrite with support for Netweaver AND classic
+* improved autoconf detection
+* comprehensive testing
+* code cleanup
+
+1.5
+* Path trimming option
+* Changed the returned value from the last value to the "Relevant Value" to
+  correspond with the thresholds.  The Relevant Value better reflects the
+  CCMS and may be an average or the last measured value

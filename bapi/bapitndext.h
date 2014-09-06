@@ -1,0 +1,389 @@
+/*@(#)BAPITNDEXT $Id$ SAP */
+/*
+ *   BAPITNDEXT
+ *
+ *
+ * File generated from SAP Data Dictionary
+ * SAP system:.. CET
+ * SAP release:. 701 
+ * Date:........ Thu Sep 30 18:48:20 2010
+ *
+ *
+ * # Of fields:.................. 40
+ * Size in 1 byte  per SAP_UC:... 440
+ * Size in 2 bytes per SAP_UC:... 828
+ * Size in 4 bytes per SAP_UC:... 1604
+ *
+ */ 
+
+#ifndef BAPITNDEXT_H
+#define BAPITNDEXT_H
+
+typedef struct BAPITNDEXT
+{
+	SAP_CHAR	Mtsysid [8];
+#define BAPITNDEXT_MTSYSID_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTSYSID_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_MTSYSID_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtmcname [40];
+#define BAPITNDEXT_MTMCNAME_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTMCNAME_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_MTMCNAME_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtnumrange [3];
+#define BAPITNDEXT_MTNUMRANGE_LN  	CCQ_CAST(intR)(3 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTNUMRANGE_CCNT	CCQ_CAST(intU)3
+#define BAPITNDEXT_MTNUMRANGE_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtuid [10];
+#define BAPITNDEXT_MTUID_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTUID_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_MTUID_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtclass [3];
+#define BAPITNDEXT_MTCLASS_LN  	CCQ_CAST(intR)(3 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTCLASS_CCNT	CCQ_CAST(intU)3
+#define BAPITNDEXT_MTCLASS_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtindex [10];
+#define BAPITNDEXT_MTINDEX_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTINDEX_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_MTINDEX_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Extindex [10];
+#define BAPITNDEXT_EXTINDEX_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_EXTINDEX_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_EXTINDEX_TYP 	RFCTYPE_CHAR
+
+	SAP_INT	Altreenum;
+#define BAPITNDEXT_ALTREENUM_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ALTREENUM_TYP 	RFCTYPE_INT
+
+	SAP_INT	Alidxintre;
+#define BAPITNDEXT_ALIDXINTRE_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ALIDXINTRE_TYP 	RFCTYPE_INT
+
+	SAP_INT	Allevintre;
+#define BAPITNDEXT_ALLEVINTRE_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ALLEVINTRE_TYP 	RFCTYPE_INT
+
+	SAP_INT	Alparintre;
+#define BAPITNDEXT_ALPARINTRE_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ALPARINTRE_TYP 	RFCTYPE_INT
+
+	SAP_CHAR	Objectname [40];
+#define BAPITNDEXT_OBJECTNAME_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_OBJECTNAME_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_OBJECTNAME_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Mtnameshrt [40];
+#define BAPITNDEXT_MTNAMESHRT_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MTNAMESHRT_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_MTNAMESHRT_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Cusgrpname [40];
+#define BAPITNDEXT_CUSGRPNAME_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_CUSGRPNAME_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_CUSGRPNAME_TYP 	RFCTYPE_CHAR
+
+	SAP_INT	Deliversta;
+#define BAPITNDEXT_DELIVERSTA_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_DELIVERSTA_TYP 	RFCTYPE_INT
+
+	SAP_INT	Highalval;
+#define BAPITNDEXT_HIGHALVAL_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_HIGHALVAL_TYP 	RFCTYPE_INT
+
+	SAP_INT	Highalsev;
+#define BAPITNDEXT_HIGHALSEV_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_HIGHALSEV_TYP 	RFCTYPE_INT
+
+	SAP_CHAR	Alsysid [8];
+#define BAPITNDEXT_ALSYSID_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_ALSYSID_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_ALSYSID_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Msegname [40];
+#define BAPITNDEXT_MSEGNAME_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_MSEGNAME_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_MSEGNAME_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Aluniqnum [10];
+#define BAPITNDEXT_ALUNIQNUM_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_ALUNIQNUM_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_ALUNIQNUM_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Alindex [10];
+#define BAPITNDEXT_ALINDEX_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_ALINDEX_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_ALINDEX_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Alertdate [8];
+#define BAPITNDEXT_ALERTDATE_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_ALERTDATE_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_ALERTDATE_TYP 	RFCTYPE_DATE
+
+	SAP_CHAR	Alerttime [6];
+#define BAPITNDEXT_ALERTTIME_LN  	CCQ_CAST(intR)(6 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_ALERTTIME_CCNT	CCQ_CAST(intU)6
+#define BAPITNDEXT_ALERTTIME_TYP 	RFCTYPE_TIME
+
+	SAP_CHAR	Dummyalign [2];
+#define BAPITNDEXT_DUMMYALIGN_LN  	CCQ_CAST(intR)(2 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_DUMMYALIGN_CCNT	CCQ_CAST(intU)2
+#define BAPITNDEXT_DUMMYALIGN_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Lastvaldat [8];
+#define BAPITNDEXT_LASTVALDAT_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_LASTVALDAT_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_LASTVALDAT_TYP 	RFCTYPE_DATE
+
+	SAP_CHAR	Lastvaltim [6];
+#define BAPITNDEXT_LASTVALTIM_LN  	CCQ_CAST(intR)(6 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_LASTVALTIM_CCNT	CCQ_CAST(intU)6
+#define BAPITNDEXT_LASTVALTIM_TYP 	RFCTYPE_TIME
+
+	SAP_CHAR	Lastvaldum [2];
+#define BAPITNDEXT_LASTVALDUM_LN  	CCQ_CAST(intR)(2 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_LASTVALDUM_CCNT	CCQ_CAST(intU)2
+#define BAPITNDEXT_LASTVALDUM_TYP 	RFCTYPE_CHAR
+
+	SAP_INT	Actualval;
+#define BAPITNDEXT_ACTUALVAL_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ACTUALVAL_TYP 	RFCTYPE_INT
+
+	SAP_INT	Actualsev;
+#define BAPITNDEXT_ACTUALSEV_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_ACTUALSEV_TYP 	RFCTYPE_INT
+
+	SAP_CHAR	Valsysid [8];
+#define BAPITNDEXT_VALSYSID_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALSYSID_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_VALSYSID_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Vmsegname [40];
+#define BAPITNDEXT_VMSEGNAME_LN  	CCQ_CAST(intR)(40 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VMSEGNAME_CCNT	CCQ_CAST(intU)40
+#define BAPITNDEXT_VMSEGNAME_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Valuniqnum [10];
+#define BAPITNDEXT_VALUNIQNUM_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALUNIQNUM_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_VALUNIQNUM_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Valindex [10];
+#define BAPITNDEXT_VALINDEX_LN  	CCQ_CAST(intR)(10 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALINDEX_CCNT	CCQ_CAST(intU)10
+#define BAPITNDEXT_VALINDEX_TYP 	RFCTYPE_CHAR
+
+	SAP_CHAR	Valertdate [8];
+#define BAPITNDEXT_VALERTDATE_LN  	CCQ_CAST(intR)(8 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALERTDATE_CCNT	CCQ_CAST(intU)8
+#define BAPITNDEXT_VALERTDATE_TYP 	RFCTYPE_DATE
+
+	SAP_CHAR	Valerttime [6];
+#define BAPITNDEXT_VALERTTIME_LN  	CCQ_CAST(intR)(6 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALERTTIME_CCNT	CCQ_CAST(intU)6
+#define BAPITNDEXT_VALERTTIME_TYP 	RFCTYPE_TIME
+
+	SAP_CHAR	Valertdum [2];
+#define BAPITNDEXT_VALERTDUM_LN  	CCQ_CAST(intR)(2 * sizeofR(SAP_CHAR))
+#define BAPITNDEXT_VALERTDUM_CCNT	CCQ_CAST(intU)2
+#define BAPITNDEXT_VALERTDUM_TYP 	RFCTYPE_CHAR
+
+	SAP_INT	Countofact;
+#define BAPITNDEXT_COUNTOFACT_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_COUNTOFACT_TYP 	RFCTYPE_INT
+
+	SAP_INT	Countsum;
+#define BAPITNDEXT_COUNTSUM_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_COUNTSUM_TYP 	RFCTYPE_INT
+
+	SAP_INT	Visuserlev;
+#define BAPITNDEXT_VISUSERLEV_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_VISUSERLEV_TYP 	RFCTYPE_INT
+
+	SAP_INT	Tdstatus;
+#define BAPITNDEXT_TDSTATUS_LN  	CCQ_CAST(intR)4
+#define BAPITNDEXT_TDSTATUS_TYP 	RFCTYPE_INT
+
+}
+BAPITNDEXT;
+
+/* Warning : Structure may need 4-bytes alignment. */
+
+#define BAPITNDEXT_LN 	sizeofR( BAPITNDEXT )
+
+#ifdef RFC_DEFINE_TYPE
+#ifdef __cplusplus
+  // define the (template) class for the actual type
+  // and declare the one instance of the type describing class.
+
+  typedef CAbapType< BAPITNDEXT > BAPITNDEXT_TYPE;
+  extern BAPITNDEXT_TYPE BAPITNDEXT_Type;
+  typedef CAbapTable< BAPITNDEXT > BAPITNDEXT_TABLE;
+
+#endif /* C++ */
+#endif /* RFC_DEFINE_TYPE */
+
+
+#endif  /* BAPITNDEXT_H */
+
+#ifdef RFC_DEFINE_U_STRUCTURE
+/* set this to generate also structure information for
+ * RFC programs.
+ * 
+ * You can use this on both UNICODE and non-UNICODE Programs
+ * 
+ */
+
+static RFC_UNICODE_TYPE_ELEMENT Description_U_BAPITNDEXT[] =
+{ 
+{ cU("Mtsysid"),	 BAPITNDEXT_MTSYSID_TYP,	 0,   8,   0,  16,   0,  32,   0 },
+{ cU("Mtmcname"),	 BAPITNDEXT_MTMCNAME_TYP,	 0,  40,   8,  80,  16, 160,  32 },
+{ cU("Mtnumrange"),	 BAPITNDEXT_MTNUMRANGE_TYP,	 0,   3,  48,   6,  96,  12, 192 },
+{ cU("Mtuid"),	 BAPITNDEXT_MTUID_TYP,	 0,  10,  51,  20, 102,  40, 204 },
+{ cU("Mtclass"),	 BAPITNDEXT_MTCLASS_TYP,	 0,   3,  61,   6, 122,  12, 244 },
+{ cU("Mtindex"),	 BAPITNDEXT_MTINDEX_TYP,	 0,  10,  64,  20, 128,  40, 256 },
+{ cU("Extindex"),	 BAPITNDEXT_EXTINDEX_TYP,	 0,  10,  74,  20, 148,  40, 296 },
+{ cU("Altreenum"),	 BAPITNDEXT_ALTREENUM_TYP,	 0,   4,  84,   4, 168,   4, 336 },
+{ cU("Alidxintre"),	 BAPITNDEXT_ALIDXINTRE_TYP,	 0,   4,  88,   4, 172,   4, 340 },
+{ cU("Allevintre"),	 BAPITNDEXT_ALLEVINTRE_TYP,	 0,   4,  92,   4, 176,   4, 344 },
+{ cU("Alparintre"),	 BAPITNDEXT_ALPARINTRE_TYP,	 0,   4,  96,   4, 180,   4, 348 },
+{ cU("Objectname"),	 BAPITNDEXT_OBJECTNAME_TYP,	 0,  40, 100,  80, 184, 160, 352 },
+{ cU("Mtnameshrt"),	 BAPITNDEXT_MTNAMESHRT_TYP,	 0,  40, 140,  80, 264, 160, 512 },
+{ cU("Cusgrpname"),	 BAPITNDEXT_CUSGRPNAME_TYP,	 0,  40, 180,  80, 344, 160, 672 },
+{ cU("Deliversta"),	 BAPITNDEXT_DELIVERSTA_TYP,	 0,   4, 220,   4, 424,   4, 832 },
+{ cU("Highalval"),	 BAPITNDEXT_HIGHALVAL_TYP,	 0,   4, 224,   4, 428,   4, 836 },
+{ cU("Highalsev"),	 BAPITNDEXT_HIGHALSEV_TYP,	 0,   4, 228,   4, 432,   4, 840 },
+{ cU("Alsysid"),	 BAPITNDEXT_ALSYSID_TYP,	 0,   8, 232,  16, 436,  32, 844 },
+{ cU("Msegname"),	 BAPITNDEXT_MSEGNAME_TYP,	 0,  40, 240,  80, 452, 160, 876 },
+{ cU("Aluniqnum"),	 BAPITNDEXT_ALUNIQNUM_TYP,	 0,  10, 280,  20, 532,  40, 1036 },
+{ cU("Alindex"),	 BAPITNDEXT_ALINDEX_TYP,	 0,  10, 290,  20, 552,  40, 1076 },
+{ cU("Alertdate"),	 BAPITNDEXT_ALERTDATE_TYP,	 0,   8, 300,  16, 572,  32, 1116 },
+{ cU("Alerttime"),	 BAPITNDEXT_ALERTTIME_TYP,	 0,   6, 308,  12, 588,  24, 1148 },
+{ cU("Dummyalign"),	 BAPITNDEXT_DUMMYALIGN_TYP,	 0,   2, 314,   4, 600,   8, 1172 },
+{ cU("Lastvaldat"),	 BAPITNDEXT_LASTVALDAT_TYP,	 0,   8, 316,  16, 604,  32, 1180 },
+{ cU("Lastvaltim"),	 BAPITNDEXT_LASTVALTIM_TYP,	 0,   6, 324,  12, 620,  24, 1212 },
+{ cU("Lastvaldum"),	 BAPITNDEXT_LASTVALDUM_TYP,	 0,   2, 330,   4, 632,   8, 1236 },
+{ cU("Actualval"),	 BAPITNDEXT_ACTUALVAL_TYP,	 0,   4, 332,   4, 636,   4, 1244 },
+{ cU("Actualsev"),	 BAPITNDEXT_ACTUALSEV_TYP,	 0,   4, 336,   4, 640,   4, 1248 },
+{ cU("Valsysid"),	 BAPITNDEXT_VALSYSID_TYP,	 0,   8, 340,  16, 644,  32, 1252 },
+{ cU("Vmsegname"),	 BAPITNDEXT_VMSEGNAME_TYP,	 0,  40, 348,  80, 660, 160, 1284 },
+{ cU("Valuniqnum"),	 BAPITNDEXT_VALUNIQNUM_TYP,	 0,  10, 388,  20, 740,  40, 1444 },
+{ cU("Valindex"),	 BAPITNDEXT_VALINDEX_TYP,	 0,  10, 398,  20, 760,  40, 1484 },
+{ cU("Valertdate"),	 BAPITNDEXT_VALERTDATE_TYP,	 0,   8, 408,  16, 780,  32, 1524 },
+{ cU("Valerttime"),	 BAPITNDEXT_VALERTTIME_TYP,	 0,   6, 416,  12, 796,  24, 1556 },
+{ cU("Valertdum"),	 BAPITNDEXT_VALERTDUM_TYP,	 0,   2, 422,   4, 808,   8, 1580 },
+{ cU("Countofact"),	 BAPITNDEXT_COUNTOFACT_TYP,	 0,   4, 424,   4, 812,   4, 1588 },
+{ cU("Countsum"),	 BAPITNDEXT_COUNTSUM_TYP,	 0,   4, 428,   4, 816,   4, 1592 },
+{ cU("Visuserlev"),	 BAPITNDEXT_VISUSERLEV_TYP,	 0,   4, 432,   4, 820,   4, 1596 },
+{ cU("Tdstatus"),	 BAPITNDEXT_TDSTATUS_TYP,	 0,   4, 436,   4, 824,   4, 1600 }
+};
+
+#define ENTRIES_OF_U_BAPITNDEXT (sizeofR(Description_U_BAPITNDEXT)/sizeofR((Description_U_BAPITNDEXT)[0]))
+
+RFC_STRUCT_TYPE_ID STRUCT_ID_BAPITNDEXT = {
+0x47, 0xb4, 0xfd, 0x7e, 0x69, 0x7d, 0x0e, 0x2a,
+0xe1, 0x00, 0x00, 0x00, 0x0a, 0x15, 0x72, 0x98} ;
+
+/*
+ * install structure in RFC program by
+ *
+ * #define RFC_DEFINE_U_STRUCTURE
+ * #include "bapitndext.h"
+ *
+ * RFC_RC rc = RfcInstallUnicodeStructure( cU("BAPITNDEXT"),
+ *                                  Description_U_BAPITNDEXT,
+ *                                  ENTRIES_OF_U_BAPITNDEXT,
+ *                                  0,
+ *                                  NULL,
+ *                                  &typeHandle );
+ */
+
+#endif  /* RFC_DEFINE_U_STRUCTURE */
+
+
+#ifdef RFC_DEFINE_STRUCTURE
+/* set this to generate also structure information for
+ * RFC programs.
+ * 
+ * You can use this ONLY in non-UNICODE Programs
+ * 
+ */
+
+static RFC_TYPE_ELEMENT Description_BAPITNDEXT[] =
+{ 
+{ cU("Mtsysid"),	 BAPITNDEXT_MTSYSID_TYP, BAPITNDEXT_MTSYSID_LN, 0 },
+{ cU("Mtmcname"),	 BAPITNDEXT_MTMCNAME_TYP, BAPITNDEXT_MTMCNAME_LN, 0 },
+{ cU("Mtnumrange"),	 BAPITNDEXT_MTNUMRANGE_TYP, BAPITNDEXT_MTNUMRANGE_LN, 0 },
+{ cU("Mtuid"),	 BAPITNDEXT_MTUID_TYP, BAPITNDEXT_MTUID_LN, 0 },
+{ cU("Mtclass"),	 BAPITNDEXT_MTCLASS_TYP, BAPITNDEXT_MTCLASS_LN, 0 },
+{ cU("Mtindex"),	 BAPITNDEXT_MTINDEX_TYP, BAPITNDEXT_MTINDEX_LN, 0 },
+{ cU("Extindex"),	 BAPITNDEXT_EXTINDEX_TYP, BAPITNDEXT_EXTINDEX_LN, 0 },
+{ cU("Altreenum"),	 BAPITNDEXT_ALTREENUM_TYP, BAPITNDEXT_ALTREENUM_LN, 0 },
+{ cU("Alidxintre"),	 BAPITNDEXT_ALIDXINTRE_TYP, BAPITNDEXT_ALIDXINTRE_LN, 0 },
+{ cU("Allevintre"),	 BAPITNDEXT_ALLEVINTRE_TYP, BAPITNDEXT_ALLEVINTRE_LN, 0 },
+{ cU("Alparintre"),	 BAPITNDEXT_ALPARINTRE_TYP, BAPITNDEXT_ALPARINTRE_LN, 0 },
+{ cU("Objectname"),	 BAPITNDEXT_OBJECTNAME_TYP, BAPITNDEXT_OBJECTNAME_LN, 0 },
+{ cU("Mtnameshrt"),	 BAPITNDEXT_MTNAMESHRT_TYP, BAPITNDEXT_MTNAMESHRT_LN, 0 },
+{ cU("Cusgrpname"),	 BAPITNDEXT_CUSGRPNAME_TYP, BAPITNDEXT_CUSGRPNAME_LN, 0 },
+{ cU("Deliversta"),	 BAPITNDEXT_DELIVERSTA_TYP, BAPITNDEXT_DELIVERSTA_LN, 0 },
+{ cU("Highalval"),	 BAPITNDEXT_HIGHALVAL_TYP, BAPITNDEXT_HIGHALVAL_LN, 0 },
+{ cU("Highalsev"),	 BAPITNDEXT_HIGHALSEV_TYP, BAPITNDEXT_HIGHALSEV_LN, 0 },
+{ cU("Alsysid"),	 BAPITNDEXT_ALSYSID_TYP, BAPITNDEXT_ALSYSID_LN, 0 },
+{ cU("Msegname"),	 BAPITNDEXT_MSEGNAME_TYP, BAPITNDEXT_MSEGNAME_LN, 0 },
+{ cU("Aluniqnum"),	 BAPITNDEXT_ALUNIQNUM_TYP, BAPITNDEXT_ALUNIQNUM_LN, 0 },
+{ cU("Alindex"),	 BAPITNDEXT_ALINDEX_TYP, BAPITNDEXT_ALINDEX_LN, 0 },
+{ cU("Alertdate"),	 BAPITNDEXT_ALERTDATE_TYP, BAPITNDEXT_ALERTDATE_LN, 0 },
+{ cU("Alerttime"),	 BAPITNDEXT_ALERTTIME_TYP, BAPITNDEXT_ALERTTIME_LN, 0 },
+{ cU("Dummyalign"),	 BAPITNDEXT_DUMMYALIGN_TYP, BAPITNDEXT_DUMMYALIGN_LN, 0 },
+{ cU("Lastvaldat"),	 BAPITNDEXT_LASTVALDAT_TYP, BAPITNDEXT_LASTVALDAT_LN, 0 },
+{ cU("Lastvaltim"),	 BAPITNDEXT_LASTVALTIM_TYP, BAPITNDEXT_LASTVALTIM_LN, 0 },
+{ cU("Lastvaldum"),	 BAPITNDEXT_LASTVALDUM_TYP, BAPITNDEXT_LASTVALDUM_LN, 0 },
+{ cU("Actualval"),	 BAPITNDEXT_ACTUALVAL_TYP, BAPITNDEXT_ACTUALVAL_LN, 0 },
+{ cU("Actualsev"),	 BAPITNDEXT_ACTUALSEV_TYP, BAPITNDEXT_ACTUALSEV_LN, 0 },
+{ cU("Valsysid"),	 BAPITNDEXT_VALSYSID_TYP, BAPITNDEXT_VALSYSID_LN, 0 },
+{ cU("Vmsegname"),	 BAPITNDEXT_VMSEGNAME_TYP, BAPITNDEXT_VMSEGNAME_LN, 0 },
+{ cU("Valuniqnum"),	 BAPITNDEXT_VALUNIQNUM_TYP, BAPITNDEXT_VALUNIQNUM_LN, 0 },
+{ cU("Valindex"),	 BAPITNDEXT_VALINDEX_TYP, BAPITNDEXT_VALINDEX_LN, 0 },
+{ cU("Valertdate"),	 BAPITNDEXT_VALERTDATE_TYP, BAPITNDEXT_VALERTDATE_LN, 0 },
+{ cU("Valerttime"),	 BAPITNDEXT_VALERTTIME_TYP, BAPITNDEXT_VALERTTIME_LN, 0 },
+{ cU("Valertdum"),	 BAPITNDEXT_VALERTDUM_TYP, BAPITNDEXT_VALERTDUM_LN, 0 },
+{ cU("Countofact"),	 BAPITNDEXT_COUNTOFACT_TYP, BAPITNDEXT_COUNTOFACT_LN, 0 },
+{ cU("Countsum"),	 BAPITNDEXT_COUNTSUM_TYP, BAPITNDEXT_COUNTSUM_LN, 0 },
+{ cU("Visuserlev"),	 BAPITNDEXT_VISUSERLEV_TYP, BAPITNDEXT_VISUSERLEV_LN, 0 },
+{ cU("Tdstatus"),	 BAPITNDEXT_TDSTATUS_TYP, BAPITNDEXT_TDSTATUS_LN, 0 }
+};
+
+#define ENTRIES_OF_BAPITNDEXT (sizeofR(Description_BAPITNDEXT)/sizeofR((Description_BAPITNDEXT)[0]))
+
+/*
+ * install structure in RFC program by
+ *
+ * #define RFC_DEFINE_STRUCTURE
+ * #include "bapitndext.h"
+ *
+ * RFC_RC rc = RfcInstallStructure( cU("BAPITNDEXT"),
+ *                                  Description_BAPITNDEXT,
+ *                                  ENTRIES_OF_BAPITNDEXT,
+ *                                  &typeHandle );
+ */
+
+#endif  /* RFC_DEFINE_STRUCTURE */
+
+
+#ifdef RFC_DEFINE_TYPE
+#ifdef RFC_DEFINE_STRUCTURE
+#ifdef __cplusplus
+  // define structure id
+  const GUID DDICID_BAPITNDEXT = {0x47b4fd7eL,(USHORT) 0x697d,(USHORT) 0x0e2a, 
+                           {0xe1,0x00,0x00,0x00,0x0a,0x15,0x72,0x98}};
+  
+  // define instance of (template) class describing the type.
+  BAPITNDEXT_TYPE BAPITNDEXT_Type ( "BAPITNDEXT", Description_BAPITNDEXT, ENTRIES_OF_BAPITNDEXT, DDICID_BAPITNDEXT );
+#endif /* C++ */
+#endif /* RFC_DEFINE_STRUCTURE */
+#endif /* RFC_DEFINE_TYPE */
+

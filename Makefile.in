@@ -1,0 +1,41 @@
+CC=@CC@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+INSTALL=@INSTALL@
+DESTDIR=@libexecdir@
+OBJS1=check_sap.o
+TARGETS=check_sap
+
+
+# CFLAGS=-fshort-wchar -DSAP -DWCHAR_is_2B -DSAPonLIN
+# CFLAGS=-DSAP -DWCHAR_is_2B -fshort-wchar
+CPPFLAGS=@CPPFLAGS@
+LDFLAGS=-g -O0 @LDFLAGS@
+CFLAGS += -DSAP -g -O0 @EXTRACFLAGS@ @DEFS@
+# shared library flags (assumes gcc)
+DLFLAGS=-fPIC -shared
+# BUILDLIBS=-lrfcum -lsapu16
+BUILDLIBS=@BUILDLIBS@ -lm
+
+.PHONY: debug clean all install
+all: build strip
+build: $(TARGETS)
+
+check_sap: check_sap.o
+	$(CC) -o check_sap $(OBJS1) $(LDFLAGS) $(BUILDLIBS)
+
+strip:
+	strip check_sap
+
+debug: CFLAGS += -DDEBUG
+debug: clean build
+
+
+clean:
+	rm $(OBJS1) $(TARGETS)
+
+
+install: all
+	$(INSTALL) -t $(DESTDIR) check_sap
+
+
