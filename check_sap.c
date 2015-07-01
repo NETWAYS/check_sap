@@ -2371,7 +2371,7 @@ unsigned build_param_nw(RFC_CONNECTION_PARAMETER (*param)[], struct sap_options_
     (*param)[cnt].name = cU("type"); (*param)[cnt++].value = toU16(opt->ver);
     (*param)[cnt].name = cU("trace"); (*param)[cnt++].value = toU16(opt->trace);
 */
-    (*param)[cnt].name = cU("trace"); (*param)[cnt++].value = cU("1");
+    (*param)[cnt].name = cU("trace"); (*param)[cnt++].value = opt->trace ? cU("1") : cU("0");
 
     if (opt->ver > 2)
     {
