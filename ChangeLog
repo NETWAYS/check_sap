@@ -24,3 +24,6 @@
 * Changed the returned value from the last value to the "Relevant Value" to
   correspond with the thresholds.  The Relevant Value better reflects the
   CCMS and may be an average or the last measured value
+
+1.6
+* Make sure that no trace file is created when -t isn't specified
