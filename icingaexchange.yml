@@ -1,8 +1,0 @@
-name: check_sap
-description: "file:///README.md"
-url: "https://www.netways.org/projects/plugins"
-tags: ~
-vendor: SAP,NETWAYS
-target: Service
-type: Plugin
-license: gplv2
