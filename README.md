@@ -35,7 +35,7 @@ Examples:
 
 ### Installation
 
-Download and extract the tarball release from https://www.netways.org/projects/plugins/files
+Download and extract the tarball release from https://github.com/NETWAYS/check_sap/releases
 
 You will need autoconf to generate the configure script, and a SAP SDK needs to be installed.
 N.B. the SDK must be downloaded directly from SAP.
