@@ -506,6 +506,10 @@ int main(int argc, char **argv) {
 						FREE(tmpstr);
 
 						if (valunit) {
+							if ( strcmp(valunit, "msec") == 0 ) {
+								valunit = "ms";
+							}
+
 							snprintf(tmpbuf, sizeof(tmpbuf), " %s", valunit);
 							STRADD(output, tmpbuf);
 						}
