@@ -1,3 +1,5 @@
+This plugin will be no longer maintained. We recommend to use the [check_sap_health](https://labs.consol.de/de/nagios/check_sap_health/index.html)
+
 check_sap
 =========
 
